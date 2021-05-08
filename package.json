@@ -1,6 +1,24 @@
 {
-  "name": "svelte-app",
+  "name": "refline",
   "version": "1.0.0",
+  "description": "A keyboard-first note editor — pages are plain markdown on the surface, JSON Lines underneath.",
+  "keywords": [
+    "notes",
+    "markdown",
+    "jsonl",
+    "monaco-editor",
+    "svelte",
+    "command-palette"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Sameer Tariq",
+    "url": "https://github.com/imsamtar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imsamtar/refline.git"
+  },
   "devDependencies": {
     "@tsconfig/svelte": "^1.0.10",
     "@types/node": "^14.11.1",
