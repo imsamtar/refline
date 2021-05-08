@@ -1,0 +1,23 @@
+#!graphql
+
+enum PostVisibility {
+    PUBLIC
+    FRIENDS
+    PRIVATE
+}
+
+type User {
+    id: ID!
+    username: String!
+    email: String!
+    phone: String
+    name: String
+    birthday: Date
+}
+
+type Post {
+    id: ID!
+    author: User!
+    visibility: PostVisibility!
+    content: String!
+}

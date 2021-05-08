@@ -1,0 +1,27 @@
+{
+	"extends": "@tsconfig/svelte/tsconfig.json",
+	"include": [
+		"types/*",
+		"src/*",
+		"src/**/*",
+		"src/node_modules/**/*"
+	],
+	"exclude": [
+		"node_modules/*",
+		"__sapper__/*",
+		"static/*"
+	],
+	"compilerOptions": {
+		"paths": {
+			"$ui/*": [
+				"./src/ui/*"
+			],
+			"$stores/*": [
+				"./src/stores/*"
+			],
+			"$utils/*": [
+				"./src/utils/*"
+			]
+		}
+	}
+}
